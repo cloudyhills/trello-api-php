@@ -1,0 +1,30 @@
+{
+  "name": "cloudyhills/trello-api-php",
+  "type": "library",
+  "description": "Wrapper library for Trello API V1",
+  "keywords": ["trello","API"],
+  "homepage": "http://github.com/cloudyhills/trello-api-php",
+  "license": "MIT",
+  "authors": [
+    {
+    "name": "Ed Giese",
+    "email": "ed@cloudyhills.com",
+    "homepage": "http://cloudyhills.com",
+    "role": "Developer"
+  },
+    {
+    "name": "Ian Littman",
+    "email": "ian@cloudyhills.com",
+    "homepage": "http://cloudyhills.com",
+    "role": "Developer"
+  }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "TrelloAPI": "src"
+    }
+  }
+}
